@@ -1,0 +1,1 @@
+Test Portal is a web-based online examination system that enables administrators to create and manage tests, while students can securely attempt exams and view results. It supports automated evaluation and efficient test management for educational institutions.
