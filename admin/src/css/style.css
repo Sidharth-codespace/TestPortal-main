@@ -1,0 +1,323 @@
+/* Reset and base styles */
+html {
+  background-color: #e8f2fd;
+}
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e8f2fd;
+}
+
+/* Make sure root container stretches full screen */
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+/* Container covers entire screen */
+.login-container {
+  width: 100%;
+  height: 110%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Login card centered and responsive */
+.login-card {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 500px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Left side image */
+.login-image {
+  flex: 1;
+  background-color: #f1f9ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.login-image img {
+  width: 100%;
+  max-width: 350px;
+}
+
+/* Right side form */
+.login-form {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.login-header {
+  text-align: center;
+  background: rgb(24, 182, 74);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.note {
+  font-size: 14px;
+  margin: 5px 0 0;
+  color: #e0e0e0; /* Slightly lighter text for the note */
+}
+
+.login-form label {
+  font-weight: 500;
+  margin-top: 15px;
+  margin-left: -350px;
+  display: block;
+  color: #333;
+}
+
+.login-form input {
+  width: 92%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  outline: none;
+  transition: border 0.3s;
+  background-color: white; /* Ensure input background is white */
+  color: #333; /* Text color */
+}
+
+.login-form input::placeholder {
+  color: #aaa; /* Placeholder text color */
+  text-align: left; /* Align placeholder text to the left */
+}
+
+.button {
+  margin-left: -5rem;
+  margin-top: 2rem;
+  background: rgb(24, 182, 74);
+  color: #fff;
+  border: none;
+  padding: 12px;
+  width: 5%;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  position: absolute;
+}
+
+.button:hover {
+  background: rgb(24, 182, 74);
+  color: #fff;
+}
+
+//dasboard//
+
+//////////
+form {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 18px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  border-color: rgb(24, 182, 74);
+  outline: none;
+}
+
+button {
+  padding: 12px 25px;
+  background-color: rgb(24, 182, 74);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #189f50;
+}
+
+///////
+.passkey-form-container {
+  width: 40px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(24, 182, 74);
+  text-align: center;
+}
+
+.passkey-form-container h2 {
+  font-size: 24px;
+  margin-bottom: -60px;
+  color: rgb(24, 182, 74);
+}
+
+.passkey-form input {
+  width: 20%;
+  margin: 80px auto;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.passkey-form button {
+  width: 20%;
+  padding: 12px 0;
+  background-color: rgb(24, 182, 74);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.passkey-form button:hover {
+  background-color: #189f50;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #189f50;
+}
+
+//user dtails//
+/* Reset body margin and add padding for fixed header */
+body {
+  margin: 0;
+  padding-top: 100px;
+  font-family: Arial, sans-serif;
+}
+
+/* Fixed header at the very top */
+.dashboard-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  padding: 15px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+}
+
+/* Container for header elements */
+.header-controls {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Style for dropdown and buttons */
+select,
+.addButton {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+select {
+  min-width: 150px;
+  margin-right: 45rem;
+}
+
+.addButton {
+  background: rgb(33, 218, 42);
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.addButton:hover {
+  background: #4caf50;
+  color: white;
+}
+
+/* Centered table container */
+.table-container {
+  margin-top: -19.95rem; /* Space for fixed header */
+  max-width: 1200px;
+  padding: 20px;
+}
+
+/* Table styling */
+table {
+  width: 127.2%;
+  margin-left: -9rem;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: rgb(65, 197, 70);
+  color: #000000;
+  padding: 12px 15px;
+  text-align: center;
+}
+
+td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
